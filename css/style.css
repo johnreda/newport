@@ -98,6 +98,10 @@ img.grayscale:hover {
   #index-banner .section {
     top: 0;
   }
+
+  #learningTo{
+    padding-bottom: 30px;
+  }
 }
 
 .icon-block {
