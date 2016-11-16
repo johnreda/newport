@@ -1,6 +1,6 @@
 
 
- body{
+body{
   font-family: 'Playfair Display', serif;
  }
 
@@ -9,6 +9,9 @@ nav .brand-logo {
   color: #c0b283;
 }
 
+a{
+  color: #c0b283;
+}
 nav{
   background-color: #373737;
 }
@@ -17,9 +20,20 @@ p {
   line-height: 2rem;
 }
 
+#cardTitle{
+  font-size: 35px;
+  padding-top: 10px;
+  position: relative;
+  color: #c0b283;
+}
 
 #bg1, #bg2, #bg3{
   opacity: 0.4;
+  min-width: 100%;
+}
+
+#launchSoon{
+  color: #c0b283;
 }
 
 h2{
@@ -38,6 +52,10 @@ i, p{
 
 p{
   font-size: 20px;
+}
+
+#aboutRow{
+  margin-top: -130px;
 }
 
 footer{
