@@ -98,10 +98,14 @@ img.grayscale:hover {
   #index-banner .section {
     top: 0;
   }
+}
+
+@media only screen and (max-width : 400px){
 
   #learningTo{
     padding-bottom: 30px;
   }
+  
 }
 
 .icon-block {
