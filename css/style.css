@@ -107,7 +107,11 @@ img.grayscale:hover {
   }
 
   #heading{
-    margin-top: -25px;
+    margin-top: -5px;
+  }
+
+  .icon-block{
+    margin-top: -15px;
   }
 
 }
