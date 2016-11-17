@@ -103,9 +103,9 @@ img.grayscale:hover {
 @media only screen and (max-width : 400px){
 
   #learningTo{
-    padding-bottom: 30px;
+    margin-bottom: 30px;
   }
-  
+
 }
 
 .icon-block {
