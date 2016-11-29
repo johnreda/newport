@@ -119,6 +119,12 @@ img.grayscale:hover {
   font-size: inherit;
 }
 
+#footerText{
+  margin: 10px;
+  font-size: 18px;
+  color: #000000;
+}
+
 footer.page-footer {
   margin: 0;
 }
