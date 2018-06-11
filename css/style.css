@@ -27,8 +27,14 @@ p {
   color: #c0b283;
 }
 
+#heading{
+  color: #afa56d;
+
+}
+
+
 #bg1, #bg2, #bg3{
-  opacity: 0.4;
+  opacity: 0.6;
   min-width: 100%;
 }
 
