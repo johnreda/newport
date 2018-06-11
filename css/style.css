@@ -20,6 +20,16 @@ p {
   line-height: 2rem;
 }
 
+#videobg{
+   position: fixed; 
+   top: 0;
+    right: 0;
+    bottom: 0;
+    width: 90%;
+    height: 90%;
+  opacity: 0.2;
+}
+
 #cardTitle{
   font-size: 35px;
   padding-top: 10px;
@@ -28,6 +38,7 @@ p {
 }
 
 #heading{
+  margin-top: 400px;
   color: #303030;
 
 }
@@ -48,9 +59,10 @@ h2{
   color: #373737;
 }
 
-h3{
+h3, h5{
   color: #303030;
 }
+
 
 i, p{
   color: #c0b283;
