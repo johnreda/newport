@@ -1,7 +1,10 @@
-
+html{
+  background: #f3f3f3;
+}
 
 body{
   font-family: 'Playfair Display', serif;
+  background-color: #f3f3f3;
  }
 
 nav ul a,
@@ -78,6 +81,7 @@ p{
 
 
 footer{
+  margin-top: -10px;
   background-color: #303030;
 }
 
