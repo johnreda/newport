@@ -28,7 +28,7 @@ p {
 }
 
 #heading{
-  color: #afa56d;
+  color: #303030;
 
 }
 
@@ -49,7 +49,7 @@ h2{
 }
 
 h3{
-  color: #373737;
+  color: #303030;
 }
 
 i, p{
@@ -64,8 +64,9 @@ p{
   margin-top: -130px;
 }
 
+
 footer{
-  background-color: #C0B283;
+  background-color: #303030;
 }
 
 img.grayscale {
