@@ -124,6 +124,12 @@ img.grayscale:hover {
   #index-banner .section {
     top: 0;
   }
+
+  .videobg{
+    width: 30%;
+    height: 30%;
+    opacity: 0.2
+  }
 }
 
 @media only screen and (max-width : 400px){
@@ -137,7 +143,9 @@ img.grayscale:hover {
   }
 
   .videobg{
-    width: 100vw;
+    width: 30%;
+    height: 30%;
+    opacity: 0.2
   }
 
 }
