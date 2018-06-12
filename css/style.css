@@ -41,9 +41,15 @@ p {
 #heading{
   margin-top: 400px;
   color: #303030;
-
 }
 
+#portHeadLeft{
+  text-align: left;
+}
+
+#portHeadRight{
+  text-align: right;
+}
 
 #bg1, #bg2, #bg3{
   opacity: 0.6;
@@ -76,7 +82,6 @@ p{
 #aboutRow{
   margin-top: -130px;
 }
-
 
 footer{
   margin-top: -10px;
@@ -129,6 +134,10 @@ img.grayscale:hover {
 
   .icon-block{
     margin-top: -15px;
+  }
+
+  .videobg{
+    width: 100vw;
   }
 
 }
