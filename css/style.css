@@ -138,6 +138,10 @@ img.grayscale:hover {
   #heading{
     margin-top: 65px;
   }
+
+  #index-banner{
+    height: 300px;
+  }
 }
 
 
