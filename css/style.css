@@ -43,13 +43,11 @@ p {
   color: #303030;
 }
 
-#portHeadLeft{
-  text-align: left;
+#port1 {
+  width: 70vw;
+  height: 70vh;
 }
 
-#portHeadRight{
-  text-align: right;
-}
 
 #bg1, #bg2, #bg3{
   opacity: 0.6;
@@ -130,25 +128,13 @@ img.grayscale:hover {
     height: 30%;
     opacity: 0.2
   }
+
+  #heading{
+    margin-top: -90px;
+  }
 }
 
-@media (max-width : 400px){
 
-  #learningTo{
-    margin-top: -120px;
-  }
-
-  .icon-block{
-    margin-top: -15px;
-  }
-
-  .videobg{
-    width: 30%;
-    height: 30%;
-    opacity: 0.2
-  }
-
-}
 
 .icon-block {
   padding: 0 15px;
