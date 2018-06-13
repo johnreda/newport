@@ -38,6 +38,12 @@ p {
   color: #c0b283;
 }
 
+#portfolioPic{
+  width: 90%;
+  height: 90%;
+  float: left;
+}
+
 #heading{
   margin-top: 400px;
   color: #303030;
@@ -130,7 +136,7 @@ img.grayscale:hover {
   }
 
   #heading{
-    margin-top: -90px;
+    margin-top: 65px;
   }
 }
 
