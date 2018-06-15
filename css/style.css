@@ -131,6 +131,7 @@ ul.portfoliofilter {
   text-align: center;
   margin-bottom: 40px;
 }
+
 li.filter {
   font-family: "Open Sans", Verdana, Arial, sans-serif;
   line-height: 1.6em;
@@ -214,6 +215,10 @@ ul.portfolio li:hover .portfoliohover {
 ul.portfolio li:hover .portfoliohover h5, ul.portfolio li:hover .portfoliohover h6, ul.portfolio li:hover .portfoliohover h1 {
   opacity: 1;
   color: #000;
+}
+
+.haLink{
+  color: black;
 }
 
 
