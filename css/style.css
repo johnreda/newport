@@ -218,15 +218,48 @@ ul.portfolio li:hover .portfoliohover h5, ul.portfolio li:hover .portfoliohover 
 
 
 /*END NEW PORTFOLIO SECTION*/
-
-
-@media (max-width : 992px) {
+@media screen and (min-width: 1017px) {
   .parallax-container .section {
     position: absolute;
     top: 40%;
   }
   #index-banner .section {
     top: 10%;
+  }
+  .img-container{
+  height: 234px;
+  width: 100%;
+  overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 800px){
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  .img-container{
+  height: 234px;
+  width: 400px;
+  overflow: hidden;
+  }
+}
+
+@media (min-width : 601px ) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  .img-container{
+  height: 234px;
+  width: 100%;
+  overflow: hidden;
   }
 }
 
@@ -243,7 +276,7 @@ ul.portfolio li:hover .portfoliohover h5, ul.portfolio li:hover .portfoliohover 
 
   .img-container{
   height: 234px;
-  width: 300px;
+  width: 100%;
   overflow: hidden;
 }
 
