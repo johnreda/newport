@@ -241,6 +241,12 @@ ul.portfolio li:hover .portfoliohover h5, ul.portfolio li:hover .portfoliohover 
     opacity: 0.2
   }
 
+  .img-container{
+  height: 234px;
+  width: 300px;
+  overflow: hidden;
+}
+
   #heading{
     margin-top: 65px;
   }
