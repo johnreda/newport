@@ -242,7 +242,7 @@ ul.portfolio li:hover .portfoliohover h5, ul.portfolio li:hover .portfoliohover 
     top: 10%;
   }
   .img-container{
-  height: 234px;
+  height: 100%;
   width: 400px;
   overflow: hidden;
   }
@@ -271,11 +271,11 @@ ul.portfolio li:hover .portfoliohover h5, ul.portfolio li:hover .portfoliohover 
   .videobg{
     width: 30%;
     height: 30%;
-    opacity: 0.2
+    opacity: 0.4;
   }
 
   .img-container{
-  height: 234px;
+  height: 100%;
   width: 100%;
   overflow: hidden;
 }
