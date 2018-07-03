@@ -19,6 +19,7 @@ nav{
 
 p {
   line-height: 2rem;
+  color: #2a2a2a;
 }
 
 #videobg{
@@ -76,7 +77,7 @@ h3, h5{
 }
 
 
-i, p{
+i {
   color: #c0b283;
 }
 
@@ -294,7 +295,6 @@ ul.portfolio li:hover .portfoliohover h5, ul.portfolio li:hover .portfoliohover 
     height: 300px;
   }
 }
-
 
 
 .icon-block {
