@@ -101,7 +101,14 @@ footer{
 }
 
 .project_thumb {
-  height: 205px;
+  width: 205px;
+  margin: 55px;
+}
+
+.project_thumb2{
+  height: 205px;;
+  margin-top: -10px;
+  margin-left: 20px;
 }
 
 img.grayscale {
@@ -221,6 +228,17 @@ ul.portfolio li:hover .portfoliohover h5, ul.portfolio li:hover .portfoliohover 
 .haLink{
   color: black;
   text-decoration: underline;
+}
+
+.project_name{
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.project_odd {
+  background-color: #ffffff;
+  margin: 30px;
+  height: 300px;
 }
 
 
