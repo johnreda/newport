@@ -260,7 +260,7 @@ footer.page-footer {
   }
 }
 
-@media screen and ( max-width: 420px){
+@media screen and ( min-width: 400px){
 
   .prokject_odd{
     height: 800px;
