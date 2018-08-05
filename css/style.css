@@ -260,9 +260,9 @@ footer.page-footer {
   }
 }
 
-@media screen and ( max-width: 500px){
+@media screen and ( min-width: 300px){
 
-  .project_odd{
+  .project_odd {
     height: 1000px;
   }
 
