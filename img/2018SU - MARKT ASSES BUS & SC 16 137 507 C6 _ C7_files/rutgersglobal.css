@@ -1,0 +1,198 @@
+@import 'https://rutgers-sirs.evaluationkit.com/CanvasScripts/rutgers-sirs.css?v=1';
+@charset "UTF-8";
+/* Canvas Global CSS */
+
+/* put link underlines back in for accessibility */
+div#content a,
+div#content a:link,
+div#content a:visited,
+div#content a:active { 
+	text-decoration: underline;
+}
+
+/* fix strange margins on H2 and H3 */
+H2,
+H3,
+.user_content h3, .user_content .h3, .mceContentBody h3, .mceContentBody .h3 { 
+    margin-top: 1em;
+    margin-bottom: .5em;
+    line-height: 2;
+}
+
+/*remove max-width for better responsive reflow */
+body:not(.full-width) .ic-app-container,
+body:not(.full-width) .ic-app-main-layout-vertical,
+body:not(.full-width):not(.outcomes) .ic-Layout-wrapper {
+    max-width: 100% !important;
+}
+
+/* make Discussions full-page-width
+body.discussions.course-menu-expanded:not(.ic-no-flex-layout):not(.embedded) .ic-app-main-content__primary {
+    flex: 0 0 100%;
+} */
+
+/* make page headers Rutgers red */
+.pages.show .page-title,
+.assignment-title .title,
+h1.discussion-title {
+    color: #cc0033;
+}
+
+/* emphasize Module link */
+.list-view a.modules {
+	font-weight: bold;
+}
+
+/* add the top border of module list back in */
+.item-group-container {
+	border-top: 1px solid #d6d6d6;
+}
+
+/* override specified 'divider' in modules */
+.item-group-container .item-group-condensed {
+    border-bottom: none;
+}
+
+/* style for each Module, Quiz, Assignment, Discussion groups */
+.item-group-container .item-group-condensed,
+#ag-list .item-group-condensed,
+.discussion-collections .item-group {
+	background-color: #ffffff;
+	margin: 2em;
+	border: 1px solid #d6d6d6;
+}
+/* prevent sub-lists from having big margins in Assignments */
+#ag-list ul li ul li { margin: 0; }
+
+/* add the bottom border back in for last module and remove extra margin space */
+.item-group-container .item-group-condensed:last-child, 
+.item-group-container .item-group-condensed:last-of-type, 
+.item-group-container .item-group-condensed.last {
+	border-bottom: 1px solid #d6d6d6;
+	margin-bottom: 0;
+}
+
+/* style for each Module, Quiz, Conference, Assignment, Discussion header/names */
+.ig-header .name,
+.ig-header a.accessible-toggler,
+.ig-header .ig-header-title {
+	font-size: large;
+    line-height: 1.5em;
+	color: #cc0033;
+    text-decoration: none !important;
+}
+
+/* adjust line-height of Home Page title, also */
+.pages.show .course-title {
+    line-height: 1.5em;
+}
+
+/* remove line below module name/above first item */
+.item-group-condensed .ig-list li:first-child .ig-row, 
+.item-group-condensed .ig-list li:first-of-type .ig-row, 
+.item-group-condensed .first_visible .ig-row {
+	border-top: none;
+}
+
+/* style for Module item names, Assignment item names, Discussion item names */
+.ig-list .ig-row.ig-published .ig-title,
+.discussion .discussion-row.discussion-published .discussion-type, 
+.discussion .discussion-row.discussion-published .discussion-title a {
+	color: #007fac; /* green: 33802a black: 000 link-blue: 06C rutgers-blue: 007fac */
+}
+
+/* remove full border around conference groups */
+.conferences .item-group-condensed .item-group-expandable {
+    border: none;
+}
+
+/* style for Module, Quiz, Conference, Assignment, Discussion items */
+.item-group-condensed .ig-row,
+.discussion,
+.item-group-condensed .item-group-expandable .ig-list li.conference .ig-row {
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #eeeeee;
+}
+
+/* remove bottom border from Collaboration item names */
+.collaboration .collaboration-header h2, 
+.collaboration .collaboration-header .h2 {
+    border-bottom: none;
+}
+
+/* make Conference titles black instead of gray */
+.ig-list .conference .ig-row .ellipses {
+    color: #000000;
+}
+
+/* increase indent on Module items, allow three levels of it */
+.context_module_item.indent_1 .type_icon {
+    padding-left: 2em;
+}
+.context_module_item.indent_2 .type_icon {
+    padding-left: 5em;
+}
+.context_module_item.indent_3 .type_icon {
+    padding-left: 7em;
+}
+.context_module_item.indent_4 .type_icon {
+    padding-left: 9em;
+}
+.context_module_item.indent_5 .type_icon {
+    padding-left: 11em;
+}
+.context_module_item.indent_6 .type_icon {
+    padding-left: 13em;
+}
+.context_module_item.indent_7 .type_icon {
+    padding-left: 15em;
+}
+
+/* make item details and prerequisites full size and bolder */
+.ig-details,
+.ig-header .prerequisites .prerequisites_message {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/* prevent infinite expansion of conference descriptions in Chrome */
+.ig-list .conference .ig-row .ig-details .ellipses {
+    white-space: normal;
+}
+
+/* give no-content discussion item back thick border all around */
+.discussion.no-content { 
+    border-width: 3px; 
+}
+
+/* increase indent of Discussion replies */
+.discussions .replies .entry-content {
+    padding-left: 0 !important;
+}
+
+.discussions .replies .entry {
+    padding-left: 3em;
+}
+
+/* keep Speedgrader top menu from overflowing */
+
+#gradebook_header_container {
+    overflow: inherit;
+}
+
+/* threaded discussion styling */
+
+.replies {  
+padding-left: 0px;  
+border-left: solid #f5f5f5 13px;  
+}  
+      
+.discussion-read-state-btn {  
+top: 32px;
+left:-25px !important;
+}  
+     
+div.entry-content {  
+padding-left:0px !important;  
+}  

@@ -76,6 +76,10 @@ h3, h5{
   color: #303030;
 }
 
+#project_heading{
+  color: #303030;
+  margin-top: 200px;
+}
 
 i {
   color: #c0b283;
@@ -90,7 +94,10 @@ p{
 }
 
 footer{
-  margin-top: -10px;
+  background-color: #303030;
+}
+
+.page-footer .grey {
   background-color: #303030;
 }
 
@@ -109,6 +116,27 @@ footer{
   height: 205px;;
   margin-top: -10px;
   margin-left: 20px;
+}
+
+.project_thumb3{
+  height: 205px;;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.project_img {
+  margin-top: 50px;
+  height: 150%;
+  width: 150%;
+}
+
+.ofa_project_img{
+  height: 90%;
+  width: 90%;
+}
+
+.project_description{
+  margin-top: -1px;
 }
 
 img.grayscale {
@@ -138,6 +166,33 @@ ul.portfoliofilter {
   width: 100%;
   text-align: center;
   margin-bottom: 40px;
+}
+
+.build_email {
+  color:#303030;
+}
+
+button {
+  height: 40px;
+  width: 140px;
+  font-size: 24px;
+  background: none;
+  border: 3px solid #303030;
+  color: #303030;
+  border-radius: 50px;
+}
+
+button:hover {
+  background-color: #303030;
+  color: #c0b283;
+}
+
+button:hover i{
+  color: #c0b283;
+}
+
+.coming_soon{
+  margin-top: -1px;
 }
 
 li.filter {
@@ -312,6 +367,11 @@ ul.portfolio li:hover .portfoliohover h5, ul.portfolio li:hover .portfoliohover 
   #index-banner{
     height: 300px;
   }
+
+  #bg1 {
+    margin-left: -575px;
+    opacity: 0.2;
+  }
 }
 
 
@@ -324,7 +384,6 @@ ul.portfolio li:hover .portfoliohover h5, ul.portfolio li:hover .portfoliohover 
 
 
 #footerText{
-  margin: 10px;
   font-size: 18px;
   color: #000000;
 }
