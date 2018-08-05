@@ -262,8 +262,8 @@ footer.page-footer {
 
 @media screen and ( max-width: 500px){
 
-  .prokject_odd{
-    height: 800px;
+  .project_odd{
+    height: 1000px;
   }
 
 }
