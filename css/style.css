@@ -354,6 +354,14 @@ ul.portfolio li:hover .portfoliohover h5, ul.portfolio li:hover .portfoliohover 
     opacity: 0.4;
   }
 
+  .paralax-container {
+    float: left;
+    clear:  both;
+  }
+  
+  .project_odd {
+    height: 700px;
+  }
   .img-container{
   height: 100%;
   width: 100%;
@@ -371,6 +379,12 @@ ul.portfolio li:hover .portfoliohover h5, ul.portfolio li:hover .portfoliohover 
   #bg1 {
     margin-left: -575px;
     opacity: 0.2;
+  }
+}
+
+@media (max-width : 400px){
+  .project_odd {
+    height: 900px;
   }
 }
 
