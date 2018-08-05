@@ -386,8 +386,10 @@ ul.portfolio li:hover .portfoliohover h5, ul.portfolio li:hover .portfoliohover 
 #footerText{
   font-size: 18px;
   color: #000000;
+  background-color: rgb(0,0,0, 0.001); 
 }
 
 footer.page-footer {
   margin: 0;
+  background-color: #c0c0c0
 }
