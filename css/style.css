@@ -260,6 +260,15 @@ footer.page-footer {
   }
 }
 
+@media screen and ( max-width: 414px){
+
+  .prokject_odd{
+    height: 800px;
+  }
+
+}
+
+
 @media screen and (min-width: 1017px) {
   .parallax-container .section {
     position: absolute;
